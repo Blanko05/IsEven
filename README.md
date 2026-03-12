@@ -87,7 +87,7 @@ gcc generator.c mongoose.c -o generator.exe -IC:\msys64\ucrt64\include -LC:\msys
 ## Project structure
 
 ```
-generator.c        — the main program (generates, compiles, orchestrates everything)
+produce.c        — the main program (generates, compiles, orchestrates everything)
 mongoose.c/.h      — embedded HTTP server
 train.py           — neural network training script
 predict.py         — neural network inference script (called by generator at runtime)
